@@ -1,5 +1,5 @@
 import React from "react";
-import professionalPhoto from '../images/professional_photo.jpg';
+import photo from '../images/photo.jpg';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
           <img
             className="object-cover object-center rounded-full shadow border-double border-4 border-white mt-20 "
             alt="Andrew Krasuski Professional Photo"
-            src={professionalPhoto}
+            src={photo}
             width={'220px'}
             height={'220px'}
           />

@@ -47,7 +47,7 @@
 }
 
 .custom-carousel {
-  max-width: 50%; /* Adjust the percentage to control the size */
+  max-width: 40%; /* Adjust the percentage to control the size */
   margin-left: auto;
   margin-right: auto;
 }
