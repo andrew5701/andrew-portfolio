@@ -39,7 +39,7 @@
 }
 
 .div-background {
-  background-image: url('./images/network_bkg.gif');
+  /* background-image: url('./images/network_bkg.gif'); */
   padding-bottom: 136px;
   background-size: cover;
   background-repeat: no-repeat;
