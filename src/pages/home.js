@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="title-font sm:text-4xl mt-4 text-3xl mb-4 font-medium   text-white text-center">
 
         
-            Welcome! <br/> I'm <strong className="text-blue-700">Andrew Krasuski</strong>. <strong>Computer Science Graduate</strong>
+            Welcome! <br/> I'm <strong className="text-blue-400 text-pretty">Andrew Krasuski</strong>. <strong>Computer Science Graduate</strong>
           
           </h1>
 

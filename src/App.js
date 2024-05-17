@@ -4,7 +4,7 @@ import Navbar from './Navbar.js';
 import Home from './pages/home.js';
 import AboutMe from './pages/aboutme.js';
 import ProjectShowcase from './pages/projects.js';
-import ContactForm from './pages/components/contactme.js';
+import ContactForm from './components/contactme.js';
 
 
 
