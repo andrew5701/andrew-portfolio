@@ -12,6 +12,7 @@ import { DiMsqlServer } from "react-icons/di";
 function AboutMe() {
   return (
     <>
+    <section id="aboutme">
       <div className="mb-5">
         <div className="mt-5 text-center text-pretty">
           <h1>
@@ -176,6 +177,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

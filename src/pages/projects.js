@@ -22,7 +22,9 @@ function ProjectShowcase() {
 
 
   return (
-    <>
+
+
+    <section id="projects">
 
     <div className='  text-center  text-pretty '>
     <h1 style={style.container}>
@@ -75,7 +77,9 @@ function ProjectShowcase() {
     </Carousel>
     </div>
 
-    </>
+    </section>
+
+
   );
 }
 
