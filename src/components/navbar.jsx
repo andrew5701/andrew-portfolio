@@ -37,18 +37,16 @@ export default function Nav() {
   };
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-blue-950  my-auto">
-      <NavbarContent className="items-center my-10">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-blue-950 text-white my-auto">
+      <NavbarContent className="my-10">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <NavbarItem className="text-white">
-          Krasuski
-        </NavbarItem>
+      
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4 items-center my-10 justify-center text-white mr-80 " justify="center">
+      <NavbarContent className="hidden sm:flex gap-4 items-center my-10 justify-center text-white ml-64 mr-96" justify="center">
         <NavbarItem>
           <a className="text-white no-underline" href="#aboutme" onClick={(event) => handleClick(event, "aboutme")}>
             About Me

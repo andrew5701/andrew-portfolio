@@ -1,85 +1,93 @@
-import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from '../images/ExampleCarouselImage.jpg';
-import '../App.css';
+import Carousel from "react-bootstrap/Carousel";
+import ExampleCarouselImage from "../images/ExampleCarouselImage.jpg";
+import "../App.css";
 
 function ProjectShowcase() {
-  const style = {
-    container: {
-      position: 'relative',
-      display: 'inline-block',
-    },
-    background: {
-      backgroundColor: '#90EE90', // Replace with your desired color
-      height: '10px', // Adjust the height as needed
-      width: '50%',
-      position: 'absolute',
-      top: '0', // Positions the rectangle at the top of the container
-      left: '0',
-      zIndex: '0', // Ensure this is behind the text
-    }
-  };
-
-
-
   return (
-
-
-    <section id="projects">
-
-    <div className='  text-center  text-pretty '>
-    <h1 style={style.container}>
-      <div style={{color: 'white'}}>
-      Projects
-      </div>
-      <div style={style.background}></div>
-    </h1>
+<section id="projects" className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
+  <h1 className="text-4xl text-center mt-20 text-white font-bold col-span-full">
+    Projects
+  </h1>
+  
+  <div className="relative">
+    <img
+      src="path-to-your-image.jpg"
+      alt="Project 1"
+      className="w-full h-auto"
+    />
+    <div className="absolute bottom-0 bg-black bg-opacity-60 text-white p-4 ">
+      <h3 className="text-lg font-bold">Project 1</h3>
+      <p>Project 1 description...</p>
+      <button
+        onClick={() =>
+          window.open("https://github.com/username/project1", "_blank")
+        }
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+      >
+        Go to GitHub
+      </button>
+      <button
+        onClick={() => window.open("https://project1.com", "_blank")}
+        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2"
+      >
+        View Project
+      </button>
     </div>
+  </div>
 
-
-    <div>
-    <Carousel className='custom-carousel'>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={ExampleCarouselImage}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>Rate My Professor CCSU</h3>
-          <p>Write and view reviews for professors
-            from CCSU. </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={ExampleCarouselImage}
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={ExampleCarouselImage}
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+  <div className="relative">
+    <img
+      src="path-to-your-image.jpg"
+      alt="Project 1"
+      className="w-full h-auto"
+    />
+    <div className="absolute bottom-0 bg-black bg-opacity-60 text-white p-4">
+      <h3 className="text-lg font-bold">Project 1</h3>
+      <p>Project 1 description...</p>
+      <button
+        onClick={() =>
+          window.open("https://github.com/username/project1", "_blank")
+        }
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+      >
+        Go to GitHub
+      </button>
+      <button
+        onClick={() => window.open("https://project1.com", "_blank")}
+        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2"
+      >
+        View Project
+      </button>
     </div>
+  </div>
 
-    </section>
-
-
+  <div className="relative">
+    <img
+      src="path-to-your-image.jpg"
+      alt="Project 1"
+      className="w-full h-auto"
+    />
+    <div className="absolute bottom-0 bg-black bg-opacity-60 text-white p-4">
+      <h3 className="text-lg font-bold">Project 1</h3>
+      <p>Project 1 description...</p>
+      <button
+        onClick={() =>
+          window.open("https://github.com/username/project1", "_blank")
+        }
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+      >
+        Go to GitHub
+      </button>
+      <button
+        onClick={() => window.open("https://project1.com", "_blank")}
+        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2"
+      >
+        View Project
+      </button>
+    </div>
+  </div>
+  {/* Repeat for other projects... */}
+</section>
   );
 }
 
