@@ -102,7 +102,7 @@ return(
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="January 2023 - May 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<FaSuitcase />}
+    icon={<FaGraduationCap />}
     dateClassName="text-white font-bold size-2xl" 
   >
     
