@@ -70,13 +70,15 @@ function ProjectShowcase() {
           <div className="bg-black bg-opacity-60 text-white p-4 w-full">
             <h3 className="text-lg font-bold">EZ Eats</h3>
             <p>Find the nearest restaurants in seconds on Android.</p>
-            
             <button
-              onClick={() => window.open("https://project3.com", "_blank")}
-              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2"
+              onClick={() =>
+                window.open("https://github.com/username/project3", "_blank")
+              }
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
             >
-              View Video
+              Go to GitHub
             </button>
+            
           </div>
         </div>
         {/* Repeat for other projects... */}
