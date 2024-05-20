@@ -43,7 +43,7 @@ export default function ContactForm() {
       <section id="contact" className="mt-30">
         <h1 className="text-white mt-16 text-5xl"> Contact Me</h1>
         <p className="text-white text-center text-lg">
-          You can contact me at andrew.w.krasuski@gmail.com, or here.
+          You can contact me at <a href="mailto:andrew.w.krasuski@gmail.com">andrew.w.krasuski@gmail.com</a>, or here.
           </p>
         <form
           onSubmit={handleSubmit}

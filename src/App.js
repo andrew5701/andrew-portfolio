@@ -11,14 +11,18 @@ import {NextUIProvider} from "@nextui-org/react";
 import Experience from './pages/experience.js';
 
 
+
 function App() {
 
 
   return (
 
+    
+
     <NextUIProvider>
+      
     <Nav/>
-    <div className='App bg-gradient-to-r from-blue-950 to-blue-800'>
+    <div className='App bg-gradient-to-r from-blue-800 to-blue-950'>
 
 
 
