@@ -65,28 +65,8 @@ export default function Home() {
         </div>
 
         <div className="flex pb-4 justify-center gap-3 items-center sm:flex-row flex-col">
-          <a
-            className="group no-underline bg-blue-400 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-blue-900 active:scale-105 transition"
-            href="#contact"
-            title="Contact me"
-          >
-            Contact me here
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              strokeWidth="0"
-              viewBox="0 0 16 16"
-              className="opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition-transform duration-300"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-              ></path>
-            </svg>
-          </a>
+          
+          
 
           <a
             className="group no-underline text-white bg-blue-400 hover:bg-blue-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer"
