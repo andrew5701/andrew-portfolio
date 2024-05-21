@@ -7,7 +7,8 @@ import { FaGraduationCap, FaSuitcase } from 'react-icons/fa';
 const Experience = () => {
 return(
 
-  <>
+
+  <section id='experience' >
   <h1 className='text-4xl text-center mt-20 text-white font-bold'>Experience</h1>
 <VerticalTimeline>
 
@@ -114,7 +115,7 @@ return(
   </VerticalTimelineElement>
 
 </VerticalTimeline>
-</>
+</section>
 );
 };
 

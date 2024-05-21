@@ -9,11 +9,14 @@ import Footer from './components/footer.js';
 import Nav from './components/navbar.jsx';
 import {NextUIProvider} from "@nextui-org/react";
 import Experience from './pages/experience.js';
+import { useEffect } from 'react';
 
 
 
 function App() {
-
+  // useEffect(() => {
+  //   document.title = 'Andrew Portfolio';
+  // }, []);
 
   return (
 

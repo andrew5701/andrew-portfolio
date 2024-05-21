@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "Andrew Portfolio",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -14,6 +14,11 @@
     },
     {
       "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "letter-logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
