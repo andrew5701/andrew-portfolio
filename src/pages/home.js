@@ -55,7 +55,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center h-full">
           <div className="w-full max-w-3xl px-4">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-700 text-left mt-10">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-400 text-left mt-10">
               HELLO. I'M ANDREW.
             </h1>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-left">
