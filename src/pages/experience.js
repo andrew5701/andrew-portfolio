@@ -101,16 +101,35 @@ return(
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="January 2023 - May 2023"
+    date="January 2019 - December 2023"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<FaGraduationCap />}
     dateClassName="text-white font-bold size-2xl" 
   >
     
     <h3 className="vertical-timeline-element-title">Central Connecticut State University</h3>
-    <h4 className="vertical-timeline-element-subtitle">Graduation</h4>
+    <h4 className="vertical-timeline-element-subtitle">Bachelor's in Computer Science Honors</h4>
+    <p className="vertical-timeline-element-subtitle"> GPA: 3.42</p>
     <p>
-    ABET accredited program.
+    ABET accredited.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="January 2024 - May 2025"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={<FaGraduationCap />}
+    dateClassName="text-white font-bold size-2xl" 
+  >
+    
+    <h3 className="vertical-timeline-element-title">Central Connecticut State University</h3>
+    <h4 className="vertical-timeline-element-subtitle">Master's in Software Engineering</h4>
+    <p className="vertical-timeline-element-subtitle"> GPA: 4.00</p>
+    <p>
+    ABET accredited.
     </p>
   </VerticalTimelineElement>
 
