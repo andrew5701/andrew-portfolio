@@ -29,7 +29,7 @@ function ProjectShowcase() {
               Go to GitHub
             </button>
             <button
-              onClick={() => window.open("https://ratemyprofessorccsu.com", "_blank")}
+              onClick={() => window.open("https://www.ratemyprofessorccsu.com/", "_blank")}
               className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2"
             >
               View Live Demo
