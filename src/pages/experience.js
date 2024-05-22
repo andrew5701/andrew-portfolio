@@ -109,7 +109,7 @@ return(
     
     <h3 className="vertical-timeline-element-title">Central Connecticut State University</h3>
     <h4 className="vertical-timeline-element-subtitle">Bachelor's in Computer Science Honors</h4>
-    <p className="vertical-timeline-element-subtitle"> GPA: 3.42</p>
+    <p className="vertical-timeline-element-subtitle"> GPA: 3.41</p>
     <p>
     ABET accredited.
     </p>
