@@ -10,15 +10,20 @@ import {
   FaReact,
   FaGithub,
 } from 'react-icons/fa';
+import { SiKotlin, SiC, SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 
 const icons = [
-  FaPython,
-  FaJava,
-  FaGithub,
-  FaHtml5,
-  FaJs,
-  FaCss3Alt,
-  FaReact,
+  { component: FaPython, link: 'https://www.python.org/' },
+  { component: FaJava, link: 'https://www.java.com/' },
+  { component: FaGithub, link: 'https://github.com/' },
+  { component: FaHtml5, link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5' },
+  { component: FaJs, link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
+  { component: FaCss3Alt, link: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
+  { component: FaReact, link: 'https://reactjs.org/' },
+  { component: SiKotlin, link: 'https://kotlinlang.org/' },
+  { component: SiC, link: 'https://en.wikipedia.org/wiki/C_(programming_language)' },
+  { component: SiTailwindcss, link: 'https://tailwindcss.com/' },
+  { component: SiNextdotjs, link: 'https://nextjs.org/' },
 ];
 
 const Skills = () => {
@@ -42,8 +47,8 @@ const Skills = () => {
   };
 
   return (
-    <div className="w-full bg-gradient-to-r from-purple-800 to-blue-800 py-10">
-      <div className="max-w-screen-xl mx-auto px-4">
+    <div className="w-full bg-gradient-to-r from-blue-500 to-blue-950 py-6 -mb-36">
+      <div className="max-w-screen-xl mx-auto px-4 relative">
         <Carousel
           responsive={responsive}
           infinite={true}
@@ -52,9 +57,11 @@ const Skills = () => {
           customLeftArrow={<CustomLeftArrow />}
           customRightArrow={<CustomRightArrow />}
         >
-          {icons.map((Icon, index) => (
+          {icons.map(({ component: Icon, link }, index) => (
             <div key={index} className="flex justify-center items-center p-5">
-              <Icon size={80} className="text-white" />
+              <a href={link} target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-125">
+                <Icon size={80} className="text-white" />
+              </a>
             </div>
           ))}
         </Carousel>
@@ -67,7 +74,7 @@ const CustomLeftArrow = ({ onClick }) => {
   return (
     <button
       onClick={onClick}
-      className="absolute left-0 z-10 text-white text-4xl"
+      className="absolute left-0 z-10 text-white text-4xl ml-2"
     >
       {'<'}
     </button>
@@ -78,7 +85,7 @@ const CustomRightArrow = ({ onClick }) => {
   return (
     <button
       onClick={onClick}
-      className="absolute right-0 z-10 text-white text-4xl"
+      className="absolute right-0 z-10 text-white text-4xl mr-2"
     >
       {'>'}
     </button>
