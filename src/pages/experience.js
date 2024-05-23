@@ -9,7 +9,7 @@ return(
 
 
   <section id='experience' >
-  <h1 className='text-4xl text-center mt-20 text-white font-bold'>Experience</h1>
+  <h1 className='text-4xl text-center font-light mt-20 text-white font-bold'>EXPERIENCE</h1>
 <VerticalTimeline>
 
   <VerticalTimelineElement
@@ -93,7 +93,7 @@ return(
     <h3 className="vertical-timeline-element-title">Infosys</h3>
     <h4 className="vertical-timeline-element-subtitle">Software Engineer Intern</h4>
     <p>
-    Engineered a job mailing system for disadvantaged individuals. 
+    Worked in a team to create a artificial intelligence system for a
     </p>
   </VerticalTimelineElement>
 
