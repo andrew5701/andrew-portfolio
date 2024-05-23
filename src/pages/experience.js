@@ -9,7 +9,7 @@ return(
 
 
   <section id='experience' >
-  <h1 className='text-4xl text-center font-light mt-20 text-white font-bold'>EXPERIENCE</h1>
+  <h1 className='text-4xl text-center font-light mt-20 text-white font-bold'>MY EXPERIENCE</h1>
 <VerticalTimeline>
 
   <VerticalTimelineElement
