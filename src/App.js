@@ -45,10 +45,11 @@ function App() {
     <Home />
     </div>
 
-    <AboutMe/>
+    
     <ProjectShowcase/>
 
     <Experience/>
+    <AboutMe/>
     
     <ContactForm/>
     
