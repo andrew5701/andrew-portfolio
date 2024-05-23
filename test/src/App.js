@@ -2,6 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
+import Head from "next/head";
 
 const App = () => {
     const particlesInit = useCallback(async engine => {
@@ -18,6 +19,31 @@ const App = () => {
     }, []);
 
     return (
+<>
+        <Head>
+            <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/images/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/images/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/images/favicon-16x16.png"
+        />
+        <meta charSet="utf-8" />
+        <title>Andrew Portfolio</title>
+        <meta name="description" content="Andrew Krasuski Portfolio" />
+        </Head>
+
         <Particles
             id="tsparticles"
             init={particlesInit}
@@ -92,6 +118,7 @@ const App = () => {
                 detectRetina: true,
             }}
         />
+        </>
     );
 };
 
