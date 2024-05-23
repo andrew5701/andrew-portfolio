@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'home': "url('/public/images/home.jpeg')",
+  
+        'custom-gradient': 'linear-gradient(to right, #1e3a8a, #6366f1)',
       })
     },
   },
