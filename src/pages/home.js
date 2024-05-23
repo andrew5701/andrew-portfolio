@@ -46,13 +46,15 @@ export default function Home() {
         className="bg-home bg-cover bg-center h-screen flex flex-col items-center justify-center relative"
         style={{ backgroundImage: 'url("/images/home.jpeg")' }}
       >
-        <div className="text-center mb-8">
-          <h1 className="title-font sm:text-5xl text-4xl mb-4 font-medium text-blue-400">
-            HELLO. I'M ANDREW.
-          </h1>
-          <h1 className="title-font sm:text-5xl text-4xl mb-4 font-medium text-white">
-            I AM A SOFTWARE ENGINEER.
-          </h1>
+        <div className="flex justify-center mb-8">
+          <div className="text-left">
+            <h1 className="title-font sm:text-5xl text-1xl mb-4 font-medium text-blue-400">
+              HELLO. I'M ANDREW.
+            </h1>
+            <h1 className="title-font sm:text-5xl text-1xl mb-4 font-medium text-white">
+              I AM A SOFTWARE ENGINEER.
+            </h1>
+          </div>
         </div>
 
         <div className="flex flex-col items-center">
@@ -101,31 +103,29 @@ export default function Home() {
             </a>
           </div>
 
-          
-<motion.button
-  className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-  whileHover={{ scale: 1.1 }}
-  onClick={(event) => handleClick(event, "aboutme")}
->
-  ABOUT ME
-  {[...Array(3)].map((_, i) => (
-    <motion.span
-      key={i}
-      className="absolute w-full h-full border-2 border-white rounded-full"
-      initial={{ scale: 0, opacity: 0 }}
-      whileHover={{ scale: 1.5, opacity: [1, 0], transitionEnd: { opacity: 0 } }}
-      transition={{ duration: 0.6, delay: i * 0.2, repeat: Infinity }}
-    />
-  ))}
-</motion.button>
-
-
-
+          <motion.button
+            className="relative  inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            whileHover={{ scale: 1.1 }}
+            onClick={(event) => handleClick(event, "projects")}
+          >
+            SEE MY PROJECTS
+            {[...Array(3)].map((_, i) => (
+              <motion.span
+                key={i}
+                className="absolute w-full h-full border-2 border-white rounded-full"
+                initial={{ scale: 0, opacity: 0 }}
+                whileHover={{
+                  scale: 1.5,
+                  opacity: [1, 0],
+                  transitionEnd: { opacity: 0 },
+                }}
+                transition={{ duration: 0.6, delay: i * 0.2, repeat: Infinity }}
+              />
+            ))}
+          </motion.button>
         </div>
       </section>
       <Skills />
-
-
     </>
   );
 }
