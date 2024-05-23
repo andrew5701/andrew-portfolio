@@ -32,15 +32,14 @@ export default function Nav() {
   };
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen} className="bg-white my-auto">
+    <Navbar className="bg-white my-auto">
       <NavbarContent className="my-10 flex justify-between items-center">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
-
-        <NavbarItem>
+         <NavbarItem>
           <a href="#home" className="text-blue-700 no-underline my-10">
             ANDREW KRASUSKI
           </a>
@@ -85,17 +84,16 @@ export default function Nav() {
           </NavbarItem>
         </div>
       </NavbarContent>
-
-      <NavbarMenu className="bg-primary text-foreground items-center" isOpen={isMenuOpen}>
+      <NavbarMenu
+        className="bg-primary text-foreground items-center"
+        isOpen={isMenuOpen}
+      >
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.name}-${index}`}>
             <a
               className="text-white no-underline"
               href={item.link}
-              onClick={(event) => {
-                event.preventDefault();
-                handleClick(event, item.link.slice(1));
-              }}
+              onClick={(event) => handleClick(event, item.link.substring(1))}
             >
               {item.name}
             </a>
