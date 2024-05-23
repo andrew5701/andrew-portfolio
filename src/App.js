@@ -10,6 +10,7 @@ import Nav from './components/navbar.jsx';
 import {NextUIProvider} from "@nextui-org/react";
 import Experience from './pages/experience.js';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -23,6 +24,14 @@ function App() {
     
 
     <NextUIProvider>
+
+      <Helmet>
+
+        <meta charSet="utf-8" />
+        <title>Andrew Portfolio</title>
+        {/* <Link rel="cannoical" href="https://andrewkrasuski.com"/> */}
+        <meta name="description" content="Andrew Krasuski Portfolio"/>
+      </Helmet>
       
     <Nav/>
     <div className='App bg-gradient-to-r from-blue-800 to-blue-950'>
