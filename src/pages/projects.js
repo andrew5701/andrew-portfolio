@@ -6,7 +6,7 @@ function ProjectShowcase() {
 
   return (
     <section id="projects" className="px-6 bg-white lg:px-16 py-10 pt-1" style={{paddingTop: '12rem'}}>
-      <h1 className="font-light text-4xl text-center mt-20 text-blue-700 font-bold mb-10">
+      <h1 className="font-light text-4xl text-center mt-20 text-blue-700 font-bold mb-10 mt-4">
         MY PROJECTS
       </h1>
       
