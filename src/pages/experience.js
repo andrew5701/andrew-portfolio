@@ -19,8 +19,9 @@ return(
     dateClassName="text-white font-bold size-2xl" 
   >
     
-    <h3 className="vertical-timeline-element-title">Central Connecticut State University</h3>
+    <img src='/logo_images/ccsu.png' className='w-50 h-50 block mx-auto'/>
     <h4 className="vertical-timeline-element-subtitle">Master's in Software Engineering</h4>
+    <p>New Britain, Connecticut</p>
     <p className="vertical-timeline-element-subtitle"> GPA: 4.00</p>
     <p>
     ABET accredited.
@@ -37,8 +38,9 @@ return(
     dateClassName="text-white font-bold size-2xl" 
   >
     
-    <h3 className="vertical-timeline-element-title">Central Connecticut State University</h3>
+    <img src='/logo_images/ccsu.png' className='w-50 h-50 block mx-auto'/>
     <h4 className="vertical-timeline-element-subtitle">Bachelor's in Computer Science Honors</h4>
+    <p>New Britain, Connecticut</p>
     <p className="vertical-timeline-element-subtitle"> GPA: 3.41</p>
     <p>
     ABET accredited.
@@ -55,8 +57,9 @@ return(
     dateClassName="text-white font-bold size-2xl" 
   >
     
-    <h3 className="vertical-timeline-element-title">Infosys</h3>
+    <img src='/logo_images/infosys.png' className='w-50 h-50 block mx-auto'/>
     <h4 className="vertical-timeline-element-subtitle">Software Engineer Intern</h4>
+    <p>Hartford, Connecticut</p>
     <p>
     Worked in a team to create a artificial intelligence system for a client.
     </p>
@@ -72,8 +75,9 @@ return(
     dateClassName="text-white font-bold size-2xl" 
   >
     
-    <h3 className="vertical-timeline-element-title">Jobs For Humanity</h3>
+    <img src='/logo_images/jbf.png' className='w-50 h-50 block mx-auto'/>
     <h4 className="vertical-timeline-element-subtitle">Software Engineer Intern</h4>
+    <p>Remote</p>
     <p>
     Engineered a job mailing system for disadvantaged individuals. 
     </p>
@@ -89,8 +93,9 @@ return(
     dateClassName="text-white font-bold size-2xl" 
   >
     
-    <h3 className="vertical-timeline-element-title">APS Technology</h3>
+    <img src='/logo_images/aps.png' className='w-50 h-50 block mx-auto -mt-8'/>
     <h4 className="vertical-timeline-element-subtitle">I.T. Intern</h4>
+    <p>Wallingford, Connecticut</p>
     <p>
     Worked on various tasks within the I.T. department. I learned how to troubleshoot computer issues and how to work with a team to solve problems.
     </p>
@@ -106,8 +111,9 @@ return(
     dateClassName="text-white font-bold size-2xl" 
   >
     
-    <h3 className="vertical-timeline-element-title">Fosdick Fulfillment</h3>
+    <img src='/logo_images/fosdick.png' className='w-70 h-70 block mx-auto'/>
     <h4 className="vertical-timeline-element-subtitle">Customer Service Representative</h4>
+    <p>Wallingford, Connecticut</p>
     <p>
     Provided customer service to customers who had questions about their orders. I learned how to use a computer system to track orders and how to handle irate customers.
     </p>
@@ -122,9 +128,9 @@ return(
     icon={<FaSuitcase />}
     dateClassName="text-white font-bold size-2xl" 
   >
-
-    <h3 className="vertical-timeline-element-title">Subway</h3>
+<img src='/logo_images/subway.png' className='w-50 h-50 block mx-auto'/>
     <h4 className="vertical-timeline-element-subtitle">Sandwich Artist</h4>
+    <p>Southington, Connecticut</p>
     <p>
       My first work experience. I learned how to make sandwiches and how to work with customers. I also learned how to work with a team and how to work under pressure.
     </p>
