@@ -93,7 +93,7 @@ return(
     <h3 className="vertical-timeline-element-title">Infosys</h3>
     <h4 className="vertical-timeline-element-subtitle">Software Engineer Intern</h4>
     <p>
-    Worked in a team to create a artificial intelligence system for a
+    Worked in a team to create a artificial intelligence system for a client.
     </p>
   </VerticalTimelineElement>
 
