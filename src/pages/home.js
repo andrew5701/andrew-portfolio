@@ -43,7 +43,7 @@ export default function Home() {
     <>
       <section
         id="home"
-        className="bg-home bg-cover bg-center h-screen flex flex-col items-center justify-center relative"
+        className="bg-cover bg-center h-screen flex flex-col items-center justify-center relative"
         style={{ backgroundImage: 'url("/images/home.jpeg")' }}
       >
         <div className="flex justify-center mb-8">
