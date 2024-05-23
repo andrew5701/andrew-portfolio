@@ -5,45 +5,45 @@ import "../App.css";
 function ProjectShowcase() {
 
   return (
-    <section id="projects" className="px-6 lg:px-16 py-10">
-      <h1 className="text-4xl text-center mt-20 text-white font-bold mb-10">
-        Projects
+    <section id="projects" className="px-6 bg-white lg:px-16 py-10 pt-1" style={{paddingTop: '12rem'}}>
+      <h1 className="font-light text-4xl text-center mt-20 text-blue-700 font-bold mb-10">
+        MY PROJECTS
       </h1>
       
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
-        <div className="relative">
-          <img
-            src="/images/rmpccsu.png"
-            alt="Rate My Professor CCSU"
-            className="w-full h-auto"
-          />
-          <div className="bg-black bg-opacity-60 text-white p-4 w-full">
-            <h3 className="text-lg font-bold">Rate My Professor CCSU</h3>
-            <p>A website for rating your favorite Professors from Central Connecticut State University</p>
-            <button
-              onClick={() =>
-                window.open("https://github.com/mrjasonwalton00/RateMyProfessor", "_blank")
-              }
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
-            >
-              Go to GitHub
-            </button>
-            <button
-              onClick={() => window.open("https://www.ratemyprofessorccsu.com/", "_blank")}
-              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2"
-            >
-              View Live Demo
-            </button>
-          </div>
-        </div>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 ">
+        <div className="relative ">
+  <img
+    src="/images/rmpccsu.png"
+    alt="Rate My Professor CCSU"
+    className="w-full h-auto rounded-t-md"
+  />
+  <div className="bg-blue-800 text-white p-4 w-full rounded-b-md">
+    <h3 className="text-lg font-bold">Rate My Professor CCSU</h3>
+    <p>A website for rating your favorite Professors from Central Connecticut State University</p>
+    <button
+      onClick={() =>
+        window.open("https://github.com/mrjasonwalton00/RateMyProfessor", "_blank")
+      }
+      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+    >
+      Go to GitHub
+    </button>
+    <button
+      onClick={() => window.open("https://www.ratemyprofessorccsu.com/", "_blank")}
+      className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2"
+    >
+      View Live Demo
+    </button>
+  </div>
+</div>
 
         <div className="relative">
           <img
             src="/images/pokedex.png"
             alt="Gen 1 Pokédex"
-            className="w-full h-auto"
+            className="w-full h-auto rounded-t-md"
           />
-          <div className="bg-black bg-opacity-60 text-white p-4 w-full">
+          <div className="bg-blue-800  text-white p-4 w-full rounded-b-md">
             <h3 className="text-lg font-bold">Gen 1 Pokédex</h3>
             <p>View information about your favorite Pokémon from generation 1.</p>
             <button
@@ -58,7 +58,7 @@ function ProjectShowcase() {
         </div>
 
         <div className="relative">
-        <video width="100%" height="auto" controls>
+        <video width="100%" height="auto" className="rounded-t-md" controls>
         <source src="/videos/ezeats.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
@@ -67,8 +67,8 @@ function ProjectShowcase() {
             alt="EZ Eats"
             
           /> */}
-          <div className="bg-black bg-opacity-60 text-white p-4 w-full">
-            <h3 className="text-lg font-bold">EZ Eats</h3>
+          <div className="bg-blue-800 text-white p-4 w-full rounded-b-md">
+            <h3 className="text-lg font-bold">EZ-Eats</h3>
             <p>Find the nearest restaurants in seconds on Android.</p>
             <button
               onClick={() =>
