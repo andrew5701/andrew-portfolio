@@ -13,9 +13,9 @@ export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    { name: "ABOUT ME", link: "#aboutme" },
     { name: "PROJECTS", link: "#projects" },
     { name: "EXPERIENCE", link: "#experience" },
+    { name: "ABOUT ME", link: "#aboutme" },
     { name: "CONTACT ME", link: "#contact" },
   ];
 
@@ -39,22 +39,13 @@ export default function Nav() {
           className="sm:hidden "
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
-         <NavbarItem>
+        <NavbarItem>
           <a href="#home" className="text-blue-700 no-underline my-10">
             ANDREW KRASUSKI
           </a>
         </NavbarItem>
 
         <div className="ml-auto hidden sm:flex gap-4 items-center my-10 justify-center text-blue-700">
-          <NavbarItem>
-            <a
-              className="text-blue-700 no-underline"
-              href="#aboutme"
-              onClick={(event) => handleClick(event, "aboutme")}
-            >
-              ABOUT ME
-            </a>
-          </NavbarItem>
           <NavbarItem isActive>
             <a
               className="text-blue-700 no-underline"
@@ -74,8 +65,17 @@ export default function Nav() {
             </a>
           </NavbarItem>
           <NavbarItem>
+            <a
+              className="text-blue-700 no-underline"
+              href="#aboutme"
+              onClick={(event) => handleClick(event, "aboutme")}
+            >
+              ABOUT ME
+            </a>
+          </NavbarItem>
+          <NavbarItem>
             <button
-              className="bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-pretty"
               href="#contact"
               onClick={(event) => handleClick(event, "contact")}
             >
@@ -93,7 +93,10 @@ export default function Nav() {
             <a
               className="text-white no-underline"
               href={item.link}
-              onClick={(event) => handleClick(event, item.link.substring(1))}
+              onClick={(event) => {
+                handleClick(event, item.link.substring(1));
+                setIsMenuOpen(false); 
+              }}
             >
               {item.name}
             </a>
