@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
-import photo from "../images/photo.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { animateScroll as scroll } from "react-scroll";
-import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+import Skills from "../components/skills";
 
 export default function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -42,34 +41,23 @@ export default function Home() {
 
   return (
     <>
-      <section id="home">
-        <div className="lg:max-w-lg lg:w-full pt-20 md:w-1/2 w-5/6 flex items-center justify-center m-auto">
-          <img
-            className="rounded-md shadow border-white mt-20"
-            alt="Picture of Andrew Krasuski"
-            src={photo}
-            width={"300px"}
-            height={"300px"}
-          />
+      <section
+        id="home"
+        className="bg-home bg-cover bg-center h-screen flex flex-col items-center justify-center relative"
+        style={{ backgroundImage: 'url("/images/home.jpeg")' }}
+      >
+        <div className="text-center mb-8">
+          <h1 className="title-font sm:text-5xl text-4xl mb-4 font-medium text-blue-400">
+            HELLO. I'M ANDREW.
+          </h1>
+          <h1 className="title-font sm:text-5xl text-4xl mb-4 font-medium text-white">
+            I AM A SOFTWARE ENGINEER.
+          </h1>
         </div>
 
-        <div className="flex flex-col items-center h-full">
-          <div className="w-full max-w-3xl px-4">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-400 text-left mt-10">
-              HELLO. I'M ANDREW.
-            </h1>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-left">
-              I AM A SOFTWARE ENGINEER.
-            </h1>
-          </div>
-        </div>
-
-        <div className="flex pb-4 justify-center gap-3 items-center sm:flex-row flex-col">
-          
-          
-
+        <div className="flex flex-col items-center">
           <a
-            className="group no-underline text-white bg-blue-400 hover:bg-blue-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer"
+            className="group no-underline text-white bg-blue-400 hover:bg-blue-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer mb-4"
             href="/files/Andrew_Krasuski_Resume.pdf"
             download="Andrew_Krasuski_Resume.pdf"
           >
@@ -93,9 +81,9 @@ export default function Home() {
             </svg>
           </a>
 
-          <div className="flex">
+          <div className="flex gap-3 mb-4">
             <a
-              className="mr-3 p-4 hover:bg-blue-900 bg-blue-600 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+              className="p-4 hover:bg-blue-900 bg-blue-600 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
               href="https://www.linkedin.com/in/andrew-krasuski/"
               target="_blank"
               rel="noopener noreferrer"
@@ -104,7 +92,7 @@ export default function Home() {
             </a>
 
             <a
-              className="mr-3 p-4 hover:bg-blue-900 bg-blue-600 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+              className="p-4 hover:bg-blue-900 bg-blue-600 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
               href="https://github.com/andrew5701"
               target="_blank"
               rel="noopener noreferrer"
@@ -112,26 +100,32 @@ export default function Home() {
               <FaGithub className="text-white" size={25} />
             </a>
           </div>
-        </div>
 
-        {/* <div className="flex justify-center text-white">
-          <a
-            href="#aboutme"
-            onClick={(event) => {
-              handleClick(event, "aboutme");
-            }}
-          >
-            <div
-              style={{
-                height: "100px",
-                width: "5px",
-                backgroundColor: "white",
-                cursor: "pointer",
-              }}
-            />
-          </a>
-        </div> */}
+          
+<motion.button
+  className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+  whileHover={{ scale: 1.1 }}
+  onClick={(event) => handleClick(event, "aboutme")}
+>
+  ABOUT ME
+  {[...Array(3)].map((_, i) => (
+    <motion.span
+      key={i}
+      className="absolute w-full h-full border-2 border-white rounded-full"
+      initial={{ scale: 0, opacity: 0 }}
+      whileHover={{ scale: 1.5, opacity: [1, 0], transitionEnd: { opacity: 0 } }}
+      transition={{ duration: 0.6, delay: i * 0.2, repeat: Infinity }}
+    />
+  ))}
+</motion.button>
+
+
+
+        </div>
       </section>
+      <Skills />
+
+
     </>
   );
 }

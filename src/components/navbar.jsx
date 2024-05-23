@@ -36,7 +36,7 @@ export default function Nav() {
       <NavbarContent className="my-10 flex justify-between items-center">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="sm:hidden "
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
          <NavbarItem>
@@ -85,7 +85,7 @@ export default function Nav() {
         </div>
       </NavbarContent>
       <NavbarMenu
-        className="bg-primary text-foreground items-center"
+        className="bg-primary text-foreground items-center bg-blue-700"
         isOpen={isMenuOpen}
       >
         {menuItems.map((item, index) => (
