@@ -41,8 +41,12 @@ export default function Home() {
 
   return (
     <>
-      <section id="home" className="h-screen flex flex-col items-center justify-center relative">
-        <video
+      <section
+        id="home"
+        className="bg-home bg-cover bg-center h-screen flex flex-col items-center justify-center relative"
+        style={{ backgroundImage: 'url("/gifs/home.gif")' }}
+      >
+        {/* <video
           autoPlay
           loop
           muted
@@ -50,7 +54,7 @@ export default function Home() {
         >
           <source src="/videos/home_movie.mov" type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
 
         <div className="relative z-10 flex justify-center mb-8">
           <div className="text-center">
