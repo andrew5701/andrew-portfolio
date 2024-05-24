@@ -49,6 +49,9 @@ const Skills = () => {
   return (
     <div className="w-full bg-gradient-to-r from-blue-500 to-blue-950 py-6 -mb-36">
       <div className="max-w-screen-xl mx-auto px-4 relative">
+      <h1 className="font-light text-4xl text-center mt-20 text-white font-bold mb-10 mt-4">
+        SKILLS
+      </h1>
         <Carousel
           responsive={responsive}
           infinite={true}
@@ -59,7 +62,7 @@ const Skills = () => {
         >
           {icons.map(({ component: Icon, link }, index) => (
             <div key={index} className="flex justify-center items-center p-5">
-              <a href={link} target="_blank" rel="noopener noreferrer" className="transition-transform transform hover:scale-125">
+              <a href={link} target="_blank" rel="noopener noreferrer" className="font-bold transition-transform transform hover:scale-125">
                 <Icon size={80} className="text-white" />
               </a>
             </div>
