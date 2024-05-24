@@ -75,7 +75,7 @@ export default function Home() {
               href="/files/Andrew_Krasuski_Resume.pdf"
               download="Andrew_Krasuski_Resume.pdf"
             >
-              DOWNLOAD RESUME
+              DOWNLOAD MY RESUME
             </motion.a>
 
             <motion.button
