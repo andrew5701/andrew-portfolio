@@ -33,7 +33,7 @@ export default function Nav() {
 
   return (
     <Navbar className="bg-white my-auto">
-      <NavbarContent className="my-10 flex justify-between items-center">
+      <NavbarContent className="my-10 flex justify-between items-center font-bold">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden "
