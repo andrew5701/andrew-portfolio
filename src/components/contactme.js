@@ -40,7 +40,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <section id="contact" className="mt-30 bg-custom-gradient py-1 ">
+      <section id="contact" className="mt-30 from-blue-500 to-blue-950 bg-gradient-to-t py-1 ">
         <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center mb-9 lg:space-x-8">
           <div className="lg:w-1/2 flex flex-col items-center lg:items-start text-white">
             <h1 className="text-white mt-16 mt-5 text-5xl mb-4 font-light">CONTACT ME</h1>
