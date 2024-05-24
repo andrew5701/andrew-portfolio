@@ -97,7 +97,7 @@ function ProjectShowcase() {
           </div>
         </div>
 
-        <div className="relative">
+        {/* <div className="relative">
           <img
             src="/images/pokedex.png"
             alt="The Two Man Job"
@@ -115,7 +115,7 @@ function ProjectShowcase() {
               Go to GitHub
             </button>
           </div>
-        </div>
+        </div> */}
         {/* Repeat for other projects... */}
       </div>
     </section>
