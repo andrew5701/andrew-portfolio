@@ -107,6 +107,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/andrew-krasuski/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{marginLeft: "15px"}}
             >
               <FaLinkedin className="text-blue-600" size={25} />
             </motion.a>
