@@ -214,6 +214,7 @@ const Experience = () => {
             </h4>
             <p>New Britain, Connecticut</p>
             <p className="vertical-timeline-element-subtitle"> GPA: 3.41</p>
+            <p>Computer Science Club Vice President</p>
             <p>ABET accredited.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
