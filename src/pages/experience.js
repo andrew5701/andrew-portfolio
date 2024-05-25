@@ -71,8 +71,8 @@ const Experience = () => {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            className="vertical-timeline-element--work "
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff", paddingTop: "50px"}}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="June 2022 - July 2022"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -86,7 +86,7 @@ const Experience = () => {
             >
               <img
                 src="/logo_images/aps.png"
-                className="w-50 h-50 block mx-auto -mt-8"
+                className="w-50 h-50 block mx-auto -mt-8 mb-2"
               />
             </a>
             <h4 className="vertical-timeline-element-subtitle">I.T. Intern</h4>
