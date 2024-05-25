@@ -70,7 +70,7 @@ export default function Home() {
         <div className="relative z-10 flex flex-col items-center gap-4">
           <div className="flex gap-4">
             <motion.a
-              className="no-underline relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              className="no-underline relative inline-flex items-center px-3 sm:px-5 py-2 sm:py-3 border border-transparent text-xs sm:text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               whileHover={{ scale: 1.1 }}
               href="/files/Andrew_Krasuski_Resume.pdf"
               download="Andrew_Krasuski_Resume.pdf"
@@ -79,7 +79,7 @@ export default function Home() {
             </motion.a>
 
             <motion.button
-              className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              className="relative inline-flex items-center px-3 sm:px-5 py-2 sm:py-3 border border-transparent text-xs sm:text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               whileHover={{ scale: 1.1 }}
               onClick={(event) => handleClick(event, "projects")}
             >
@@ -94,7 +94,11 @@ export default function Home() {
                     opacity: [1, 0],
                     transitionEnd: { opacity: 0 },
                   }}
-                  transition={{ duration: 0.6, delay: i * 0.2, repeat: Infinity }}
+                  transition={{
+                    duration: 0.6,
+                    delay: i * 0.2,
+                    repeat: Infinity,
+                  }}
                 />
               ))}
             </motion.button>
@@ -107,7 +111,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/andrew-krasuski/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{marginLeft: "40px"}}
+              style={{ marginLeft: "40px" }}
             >
               <FaLinkedin className="text-blue-600" size={25} />
             </motion.a>

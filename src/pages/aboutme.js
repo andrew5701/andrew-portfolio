@@ -17,7 +17,7 @@ function AboutMe() {
       <div className="flex flex-col lg:flex-row items-center lg:justify-start w-full mt-8 lg:space-x-2 mx-auto">
         <div className="lg:w-1/2 flex justify-center">
           <img
-            className="rounded-md shadow-lg border-gray-200 border-large "
+            className="rounded-md shadow-lg border-gray-200 border-large mb-10 sm:mb-0"
             alt="Picture of Andrew Krasuski"
             src={"/images/andrew_linkedin.jpg"}
             width={"300px"}
@@ -25,9 +25,16 @@ function AboutMe() {
           />
         </div>
         <div className="lg:w-1/2">
-          <h1 className="text-blue-700 text-3xl sm:text-4xl font-light font-extrabold font-bold mb-4 ml-12 text-left">ABOUT ME</h1>
+          <h1 className="text-blue-700 text-3xl sm:text-4xl font-light font-extrabold font-bold mb-4 ml-12 text-left">
+            ABOUT ME
+          </h1>
           <p className="mb-5 text-left text-lg text-blue-700 px-5 lg:px-0 max-w-2xl text-base sm:text-lg">
-            A few words that describe me are passionate, hardworking, and dedicated. I am a software engineer with a strong background in Java, Python, and SQL. I have experience in developing web applications using HTML, CSS, and JavaScript. I am also familiar with version control systems like Git. I am excited to continue learning and growing as a software engineer.
+            A few words that describe me are passionate, hardworking, and
+            dedicated. I am a software engineer with a strong background in
+            Java, Python, and SQL. I have experience in developing web
+            applications using HTML, CSS, and JavaScript. I am also familiar
+            with version control systems like Git. I am excited to continue
+            learning and growing as a software engineer.
           </p>
         </div>
       </div>
