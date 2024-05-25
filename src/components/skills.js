@@ -49,7 +49,7 @@ const Skills = () => {
   return (
     <div className="w-full bg-gradient-to-r from-blue-500 to-blue-950 py-6 -mb-36 -mt-6">
       <div className="max-w-screen-xl mx-auto px-4 relative">
-      <h1 className="font-light text-4xl text-center mt-20 text-white  -mb-4 font-bold mb-10 mt-4">
+      <h1 className="font-light -mb-6 text-4xl text-center mt-20 text-white  -mb-4 font-bold mb-10 mt-4">
         SKILLS
       </h1>
         <Carousel
