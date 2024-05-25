@@ -42,6 +42,7 @@ function App() {
           sizes="16x16"
           href="/images/favicon-16x16.png"
         />
+        <link rel="preload" href="/gifs/home.gif" as="image" />
         <meta charSet="utf-8" />
         <title>Andrew Portfolio</title>
         <meta name="description" content="Andrew Krasuski Portfolio" />
