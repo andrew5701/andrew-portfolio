@@ -61,7 +61,7 @@ const Skills = () => {
           customRightArrow={<CustomRightArrow />}
         >
           {icons.map(({ component: Icon, link }, index) => (
-            <div key={index} className="flex justify-center items-center p-5">
+            <div key={index} className="flex justify-center items-center p-5 -mb-7">
               <a href={link} target="_blank" rel="noopener noreferrer" className="font-bold transition-transform transform hover:scale-125">
                 <Icon size={80} className="text-white" />
               </a>
