@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <>
       <section id="experience">
-        <h1 className="text-4xl text-center font-light mt-20 text-white font-bold">
+        <h1 className="text-4xl text-center font-light mt-18 mt-10 text-white font-bold ">
           MY WORK EXPERIENCE
         </h1>
         <VerticalTimeline>
