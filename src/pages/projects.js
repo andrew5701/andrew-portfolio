@@ -24,7 +24,7 @@ function ProjectShowcase() {
             <h3 className="text-lg font-bold">Rate My Professor CCSU</h3>
             <p>
               A website for rating your favorite Professors from Central
-              Connecticut State University
+              Connecticut State University.
             </p>
             <button
               onClick={() =>
