@@ -97,26 +97,51 @@ function ProjectShowcase() {
           </div>
         </div>
 
-        {/* <div className="relative">
-          <img
-            src="/images/pokedex.png"
-            alt="The Two Man Job"
-            className="w-full h-auto rounded-t-md"
-          />
-          <div className="bg-blue-800  text-white p-4 w-full rounded-b-md">
-            <h3 className="text-lg font-bold">The Two Man Job</h3>
-            <p>Illustrates the Shamir's Secret Sharing Algorithm when two keys are brought together, a secret video plays.</p>
-            <button
-              onClick={() =>
-                window.open("https://github.com/giosroom99/Two-Man-Job", "_blank")
-              }
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
-            >
-              Go to GitHub
-            </button>
-          </div>
-        </div> */}
-        {/* Repeat for other projects... */}
+
+      <div className="relative">
+        <img
+          src="/images/two_man_job.png"
+          alt="The Two Man Job"
+          className="w-full h-auto rounded-t-md"
+        />
+        <div className="bg-blue-800  text-white p-4 w-full rounded-b-md">
+          <h3 className="text-lg font-bold">The Two Man Job</h3>
+          <p>
+            Illustrates the Shamir's Secret Sharing Algorithm when two keys are
+            brought together, a secret video plays.
+          </p>
+          <button
+            onClick={() =>
+              window.open("https://github.com/giosroom99/Two-Man-Job", "_blank")
+            }
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+          >
+            Go to GitHub
+          </button>
+        </div>
+      </div>
+
+      <div className="relative">
+        <img
+          src="/images/snake_game.png"
+          alt="Snake Game Multiplayer"
+          className="w-full h-auto rounded-t-md"
+        />
+        <div className="bg-blue-800  text-white p-4 w-full rounded-b-md">
+          <h3 className="text-lg font-bold">Snake Game Multiplayer</h3>
+          <p>
+            A recreation of the popular Snake game with two player local multiplayer using the ncurses library in C. 
+          </p>
+          <button
+            onClick={() =>
+              window.open("https://github.com/andrew5701/snake-game-multiplayer", "_blank")
+            }
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+          >
+            Go to GitHub
+          </button>
+        </div>
+      </div>
       </div>
     </section>
   );
