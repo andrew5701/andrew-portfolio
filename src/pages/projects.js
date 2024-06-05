@@ -142,6 +142,27 @@ function ProjectShowcase() {
           </button>
         </div>
       </div>
+      <div className="relative">
+        <img
+          src="/images/slots.png"
+          alt="JavaScript Slot Machine"
+          className="w-full h-auto rounded-t-md"
+        />
+        <div className="bg-blue-800  text-white p-4 w-full rounded-b-md">
+          <h3 className="text-lg font-bold">JavaScript Slot Machine</h3>
+          <p>
+            A simple slot machine game created using HTML, CSS, and JavaScript. 
+          </p>
+          <button
+            onClick={() =>
+              window.open("https://github.com/andrew5701/web-slot-machine", "_blank")
+            }
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2"
+          >
+            Go to GitHub
+          </button>
+        </div>
+      </div>
       </div>
     </section>
   );
