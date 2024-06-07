@@ -146,7 +146,7 @@ function ProjectShowcase() {
         <img
           src="/images/slots.png"
           alt="JavaScript Slot Machine"
-          className="w-full h-auto rounded-t-md"
+          className="w-full h-auto rounded-t-md border-3 border-gray-250"
         />
         <div className="bg-blue-800  text-white p-4 w-full rounded-b-md">
           <h3 className="text-lg font-bold">JavaScript Slot Machine</h3>
