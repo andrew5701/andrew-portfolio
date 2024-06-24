@@ -32,11 +32,11 @@ function AboutMe() {
             I am a dedicated, passionate, and hardworking software engineer with
             a solid background in Java, Python, and more. My experience spans
             developing dynamic web applications using HTML, CSS, and JavaScript,
-            and I am well-versed in version control systems like Git. Beyond my
-            professional endeavors, I enjoy bike riding, rock climbing, watching movies, and
-            reading, activities that balance my personal and professional life.
-            With a lifelong passion for computers and mathematics, I am eager to
-            continue learning and growing.
+            and I am well-versed in version control systems such as Git. When
+            I'm not coding, I enjoy riding my bike, rock climbing, watching
+            movies, and reading—activities that balance my personal and
+            professional life. With a lifelong passion for computers and math, I
+            am excited to continue learning and growing.
           </p>
         </div>
       </div>
