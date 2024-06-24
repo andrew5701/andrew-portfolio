@@ -34,9 +34,8 @@ function AboutMe() {
             developing dynamic web applications using HTML, CSS, and JavaScript,
             and I am well-versed in version control systems such as Git. When
             I'm not coding, I enjoy riding my bike, rock climbing, watching
-            movies, and reading—activities that balance my personal and
-            professional life. With a lifelong passion for computers and math, I
-            am excited to continue learning and growing.
+            movies, and reading. With a lifelong passion for computers and math,
+            I am excited to continue learning and growing.
           </p>
         </div>
       </div>
