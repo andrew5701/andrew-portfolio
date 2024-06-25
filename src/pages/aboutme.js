@@ -29,13 +29,13 @@ function AboutMe() {
             ABOUT ME
           </h1>
           <p className="mb-5 text-left text-lg text-blue-700 px-5 lg:px-0 max-w-2xl text-base sm:text-lg">
-            I am a dedicated, passionate, and hardworking software engineer with
-            a solid background in Java, Python, and more. My experience spans
-            developing dynamic web applications using HTML, CSS, and JavaScript,
-            and I am well-versed in version control systems such as Git. When
-            I'm not coding, I enjoy riding my bike, rock climbing, watching
-            movies, and reading. With a lifelong passion for computers and
-            mathematics, I am excited to continue learning and growing.
+            I am a software engineer with a five year background in Java,
+            Python, and more. My experience spans from developing dynamic web
+            applications to mobile applications, and I am well-versed in version
+            control systems such as Git. When I'm not coding, I love biking,
+            hiking, rock climbing, watching movies, and reading. With a lifelong
+            passion for computers and mathematics, I am excited to continue
+            learning and growing.
           </p>
         </div>
       </div>
