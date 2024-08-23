@@ -41,7 +41,7 @@ export default function Nav() {
         />
         <NavbarItem>
           <a href="#home" className="text-blue-700 no-underline my-10">
-            ANDREW KRASUSKI
+            ANDREW KRASUSKI JR.
           </a>
         </NavbarItem>
 
