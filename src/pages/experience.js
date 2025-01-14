@@ -186,7 +186,7 @@ const Experience = () => {
               Master's in Software Engineering
             </h4>
             <p>New Britain, Connecticut</p>
-            <p className="vertical-timeline-element-subtitle"> GPA: 4.00</p>
+            <p className="vertical-timeline-element-subtitle"> GPA: 3.90</p>
             <p>ABET accredited.</p>
           </VerticalTimelineElement>
 
