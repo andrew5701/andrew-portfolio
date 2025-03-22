@@ -10,7 +10,7 @@ function Footer() {
       </div>
       
       <div className="flex justify-center">
-       <p className="-mb-3"> © 2030 Andrew Krasuski Jr. All rights reserved.</p>
+       <p className="-mb-3"> © 2030 Andrew Krasuski All rights reserved.</p>
       </div>
     </footer>
   );
