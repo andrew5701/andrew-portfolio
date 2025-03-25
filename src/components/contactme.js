@@ -104,13 +104,13 @@ export default function ContactForm() {
               </button>
             </form>
           </div>
-          <div className="lg:w-1/2 flex justify-center mt-10 lg:mt-0 ">
-            <img
-              src="/gifs/laptop.gif"
-              alt="Laptop with code on the screen and coffee cup gif"
-              className="rounded-md  border-white"
-            />
-          </div>
+          <div className="lg:w-1/2 flex justify-center items-center mt-6 lg:mt-0 bg-white rounded-xl shadow-md p-4">
+  <img
+    src="/gifs/laptop.gif"
+    alt="Laptop with code on the screen and coffee cup gif"
+    className="rounded-lg border border-gray-200 shadow-sm"
+  />
+</div>
         </div>
 
         {showStatus && (
