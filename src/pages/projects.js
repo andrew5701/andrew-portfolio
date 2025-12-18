@@ -94,14 +94,14 @@ function ProjectShowcase() {
                 >
                   View On GitHub
                 </button>
-                {project.live && (
+                {/* {project.live && (
                   <button
                     onClick={() => window.open(project.live, "_blank")}
                     className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded ml-2 mt-2 sm:mt-0"
                   >
                     View Live Demo
                   </button>
-                )}
+                )} */}
               </div>
             </div>
           </div>

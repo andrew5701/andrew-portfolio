@@ -104,14 +104,13 @@ export default function ContactForm() {
               </button>
             </form>
           </div>
-          <div className="w-full max-w-sm aspect-square flex justify-center items-center mt-6 lg:mt-0 bg-white rounded-full shadow-md p-4">
+          <div className="w-full max-w-md aspect-square flex justify-center items-center mt-6 lg:mt-0 bg-white rounded-full shadow-md p-6">
   <img
     src="/gifs/laptop.gif"
     alt="Laptop with code on the screen and coffee cup gif"
     className="max-w-full max-h-full"
   />
 </div>
-
 
 
         </div>
