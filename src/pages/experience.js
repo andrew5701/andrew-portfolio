@@ -17,6 +17,87 @@ const Experience = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="May 2025"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<FaSuitcase />}
+            dateClassName="text-white font-bold size-2xl"
+          >
+            <a
+              href="https://www.boothwyn.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/logo_images/boothwyn.png"
+                className="w-50 h-50 block mx-auto"
+              />
+            </a>
+            <h4 className="vertical-timeline-element-subtitle">
+              Software Engineer
+            </h4>
+            <p>Remote, Pennsylvania</p>
+            <p>
+              Developed production web applications using C#, .NET, and Blazor
+              to improve internal tools and create new website pages.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="June 2024 - May 2025"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<FaSuitcase />}
+            dateClassName="text-white font-bold size-2xl"
+          >
+            <img
+              src="/logo_images/conquest.png"
+              className="w-50 h-50 block mx-auto"
+            />
+            <h4 className="vertical-timeline-element-subtitle">
+              Software Engineer
+            </h4>
+            <p>Torrington, Connecticut</p>
+            <p>
+              Built and delivered client-facing web applications using C#,
+              Blazor, Razor Pages, and SQL Server.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="May 2023 - July 2023"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<FaSuitcase />}
+            dateClassName="text-white font-bold size-2xl"
+          >
+            <a
+              href="https://www.northbergen.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/logo_images/nbcares.png"
+                className="w-50 h-50 block mx-auto"
+              />
+            </a>
+            <h4 className="vertical-timeline-element-subtitle">
+              Software Engineer Intern
+            </h4>
+            <p>New Britain, Connecticut</p>
+            <p>
+              Optimized a React-based dashboard to improve data retrieval and
+              real-time user interactions. 
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="May 2023 - July 2023"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaSuitcase />}
@@ -72,7 +153,11 @@ const Experience = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work "
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff", paddingTop: "50px"}}
+            contentStyle={{
+              background: "rgb(33, 150, 243)",
+              color: "#fff",
+              paddingTop: "50px",
+            }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="June 2022 - July 2022"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -95,66 +180,6 @@ const Experience = () => {
               Worked on various tasks within the I.T. department. I learned how
               to troubleshoot computer issues and how to work with a team to
               solve problems.
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="July 2021 - September 2021"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<FaSuitcase />}
-            dateClassName="text-white font-bold size-2xl"
-          >
-            <a
-              href="https://www.fosdickfulfillment.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/logo_images/fosdick.png"
-                className="w-70 h-70 block mx-auto -mt-8"
-              />
-            </a>
-            <h4 className="vertical-timeline-element-subtitle">
-              Customer Service Representative
-            </h4>
-            <p>Wallingford, Connecticut</p>
-            <p>
-              Provided customer service to customers who had questions about
-              their orders. I learned how to use a computer system to track
-              orders and how to handle irate customers.
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="January 2020 - November 2020"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<FaSuitcase />}
-            dateClassName="text-white font-bold size-2xl"
-          >
-            <a
-              href="https://www.subway.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/logo_images/subway.png"
-                className="w-50 h-50 block mx-auto mb-4"
-              />
-            </a>
-            <h4 className="vertical-timeline-element-subtitle">
-              Sandwich Artist
-            </h4>
-            <p>Southington, Connecticut</p>
-            <p>
-              My first work experience. I learned how to make sandwiches and how
-              to work with customers. I also learned how to work with a team and
-              how to work under pressure.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

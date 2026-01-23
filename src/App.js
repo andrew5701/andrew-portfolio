@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./Navbar.js";
 import Home from "./pages/home.js";
 import AboutMe from "./pages/aboutme.js";
 import ProjectShowcase from "./pages/projects.js";
@@ -9,7 +7,6 @@ import Footer from "./components/footer.js";
 import Nav from "./components/navbar.jsx";
 import { NextUIProvider } from "@nextui-org/react";
 import Experience from "./pages/experience.js";
-import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 
