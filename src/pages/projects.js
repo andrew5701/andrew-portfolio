@@ -57,7 +57,7 @@ function ProjectShowcase() {
       className="px-6 bg-white lg:px-16 py-10"
       style={{ paddingTop: "3rem" }}
     >
-      <h1 className="font-light text-4xl text-center text-blue-700 font-bold mb-10">
+      <h1 className="font-light text-4xl text-center text-blue-700 mb-10">
         MY PROJECTS
       </h1>
 
