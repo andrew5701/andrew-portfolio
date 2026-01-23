@@ -1,16 +1,3 @@
-import React from "react";
-import {
-  FaJava,
-  FaPython,
-  FaHtml5,
-  FaJs,
-  FaCss3Alt,
-  FaReact,
-} from "react-icons/fa";
-import { SiKotlin } from "react-icons/si";
-import { DiMsqlServer } from "react-icons/di";
-import photo from "../images/photo.jpg";
-
 function AboutMe() {
   return (
     <section id="aboutme" className="py-10 px-4 sm:px-6 lg:px-8 bg-white mt-7">
@@ -26,10 +13,10 @@ function AboutMe() {
           />
         </div>
         <div className="lg:w-1/2">
-          <h1 className="text-blue-700 text-3xl sm:text-4xl font-light font-extrabold font-bold mb-4 ml-12 text-left">
+          <h1 className="text-blue-700 text-3xl sm:text-4xl font-bold mb-4 ml-12 text-left">
             ABOUT ME
           </h1>
-          <p className=" mb-5 text-left text-lg text-blue-700 px-5 lg:px-0 max-w-2xl text-base sm:text-lg">
+          <p className=" mb-5 text-left text-blue-700 px-5 lg:px-0 max-w-2xl text-base sm:text-lg">
             I am a software engineer with a five year background in Java,
             Python, and more. My experience spans from developing dynamic web
             applications to mobile applications, and I am well-versed in version

@@ -1,7 +1,3 @@
-import React from "react";
-import photo from '../images/photo.jpg';
-import { TypeAnimation } from 'react-type-animation';
-
 export default function Navbar() {
   const handleScroll = (event, targetId, offset = 0) => {
     event.preventDefault(); // Prevent the default anchor click behavior
