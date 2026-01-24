@@ -145,7 +145,7 @@ const Experience = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Software Engineer Intern
             </h4>
-            <p>Remote</p>
+            <p>Remote, New York</p>
             <p>
               Engineered a job mailing system for disadvantaged individuals.
             </p>
