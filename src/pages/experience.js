@@ -38,7 +38,7 @@ const Experience = () => {
             <p>Remote, Pennsylvania</p>
             <p>
               Developed production web applications using C#, .NET, and Blazor
-              to improve internal tools and create new website pages.
+              to enhance internal tools and deliver new features.
             </p>
           </VerticalTimelineElement>
 
@@ -90,7 +90,7 @@ const Experience = () => {
             <p>New Britain, Connecticut</p>
             <p>
               Optimized a React-based dashboard to improve data retrieval and
-              real-time user interactions. 
+              real-time user interactions.
             </p>
           </VerticalTimelineElement>
 
