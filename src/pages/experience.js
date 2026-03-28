@@ -159,7 +159,7 @@ const Experience = () => {
               paddingTop: "50px",
             }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="June 2022 - July 2022"
+            date="May 2022 - October 2022"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaSuitcase />}
             dateClassName="text-white font-bold size-2xl"
