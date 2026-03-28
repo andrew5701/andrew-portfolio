@@ -37,8 +37,8 @@ const Experience = () => {
             </h4>
             <p>Remote, Pennsylvania</p>
             <p>
-              Developed production web applications using C#, .NET, and Blazor
-              to enhance internal tools and deliver new features.
+              Developed and improved internal systems and tools to streamline workflows,
+              enhance efficiency, and support new business features.
             </p>
           </VerticalTimelineElement>
 
@@ -60,8 +60,8 @@ const Experience = () => {
             </h4>
             <p>Torrington, Connecticut</p>
             <p>
-              Built and delivered client-facing web applications using C#,
-              Blazor, Razor Pages, and SQL Server.
+              Designed and delivered client-facing applications, focusing on usability,
+              performance, and reliable data handling.
             </p>
           </VerticalTimelineElement>
 
