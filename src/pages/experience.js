@@ -98,7 +98,7 @@ const Experience = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="June 2023 - August 2023"
+            date="June 2023 - April 2024"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaSuitcase />}
             dateClassName="text-white font-bold size-2xl"
@@ -159,7 +159,7 @@ const Experience = () => {
               paddingTop: "50px",
             }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="May 2022 - October 2022"
+            date="May 2022 - November 2022"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaSuitcase />}
             dateClassName="text-white font-bold size-2xl"
