@@ -69,13 +69,13 @@ const Experience = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="August 2023 - December 2023"
+            date="August 2023 - May 2024"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<FaSuitcase />}
             dateClassName="text-white font-bold size-2xl"
           >
             <a
-              href="https://www.northbergen.org"
+              href="https://www.nbhact.org"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -85,7 +85,7 @@ const Experience = () => {
               />
             </a>
             <h4 className="vertical-timeline-element-subtitle">
-              Software Engineer Intern
+              Software Engineer 
             </h4>
             <p>New Britain, Connecticut</p>
             <p>
